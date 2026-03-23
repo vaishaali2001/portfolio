@@ -94,6 +94,7 @@ nav { display: flex; justify-content: space-between; align-items: center; paddin
 }
 .contact-container a{color:white !important;}
 .contact-container a:hover{color: var(--primary) !important;}
+.contact-container{text-align:center;}
 /* Responsive */
 @media (max-width: 768px) {
     .hero h1 { font-size: 2.5rem; }
