@@ -1,68 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Vaishaali R Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaishaali | Web Developer & Support Specialist</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-
 <body>
+    <nav>
+        <div class="logo">Vaishaali<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
 
-<h1>VAISHAALI R</h1>
-<h2>Shopify Developer</h2>
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Vaishaali</span></h1>
+            <h3>MCA Graduate | Shopify Developer | Tech Support Specialist</h3>
+            <p>Bridging the gap between complex technical issues and high-performance e-commerce solutions.</p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn primary">View My Work</a>
+                <a href="YOUR_RESUME_LINK_HERE.pdf" class="btn secondary" target="_blank">Download Resume</a>
+            </div>
+        </div>
+    </header>
 
-<p>
-Shopify Developer with 2+ years of experience managing and customizing
-50+ eCommerce stores. Skilled in Liquid, JavaScript, theme architecture,
-metafields, and third-party integrations.
-</p>
+    <section id="projects" class="section">
+        <h2 class="section-title">Shopify Themes & Projects</h2>
+        <div class="project-grid">
+            <div class="project-card" data-tilt>
+                <div class="project-img" style="background-image: url('glowbox-screenshot.jpg');"></div>
+                <div class="project-info">
+                    <h4>Glowbox Cosmetics</h4>
+                    <p>Custom Shopify theme featuring Liquid blocks and AJAX cart drawers.</p>
+                    <div class="tags"><span>Liquid</span> <span>JS</span> <span>Sass</span></div>
+                    <a href="https://wdt-glowbox.myshopify.com/" target="_blank" class="project-link">Live Demo <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="project-card" data-tilt>
+                <div class="project-img" style="background-image: url('primposh-screenshot.jpg');"></div>
+                <div class="project-info">
+                    <h4>Primposh Beauty</h4>
+                    <p>Luxury store design focused on mobile-first UI and JSON Schema customization.</p>
+                    <div class="tags"><span>Shopify OS 2.0</span> <span>UI/UX</span></div>
+                    <a href="https://primposh-theme.myshopify.com/" target="_blank" class="project-link">Live Demo <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<h3>About Me</h3>
-<p>
-Shopify Developer experienced in building and customizing Shopify themes,
-implementing metafields, and integrating third-party apps. Passionate about
-building efficient eCommerce solutions and improving storefront performance.
-</p>
+    <section id="contact" class="section dark">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container">
+            <p>Looking for a developer who understands the user experience and technical backend?</p>
+            <a href="mailto:your-email@example.com" class="email-link">your-email@example.com</a>
+        </div>
+    </section>
 
-<h3>Technical Skills</h3>
-
-<ul>
-<li>Liquid</li>
-<li>HTML5</li>
-<li>CSS3</li>
-<li>JavaScript</li>
-<li>Theme Customization</li>
-<li>Metafields</li>
-<li>App Integration</li>
-</ul>
-
-<h3>Work Experience</h3>
-
-<p><b>Shopify Developer / Web Designer</b></p>
-<p>Wedesigntech Pvt Ltd – Coimbatore</p>
-<p>September 2023 – February 2026</p>
-
-<ul>
-<li>Managed 50+ Shopify client stores</li>
-<li>Customized themes using Liquid, HTML, CSS, JavaScript</li>
-<li>Built dynamic sections with schema settings</li>
-<li>Implemented metafields for structured product data</li>
-<li>Automated reporting using Excel and Google Apps Script</li>
-</ul>
-
-<h3>Projects</h3>
-
-<p><b>Shopify Theme Development</b></p>
-<p>GitHub: https://github.com/vaishaali2001/Work_details</p>
-
-<h3>Education</h3>
-
-<p>MCA – Coimbatore Institute of Technology (77%)</p>
-<p>BSc Computer Science – Kongu Arts and Science College (77%)</p>
-
-<h3>Contact</h3>
-
-<p>Email: vaishaaliraja4@gmail.com</p>
-<p>Phone: 8072006804</p>
-<p>LinkedIn: linkedin.com/in/vaishaali-raja-0943981bb</p>
-
+    <script src="script.js"></script>
 </body>
 </html>
