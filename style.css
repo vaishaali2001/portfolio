@@ -41,8 +41,61 @@ nav { display: flex; justify-content: space-between; align-items: center; paddin
 .tags span { background: #334155; padding: 4px 10px; border-radius: 4px; font-size: 0.8rem; margin-right: 5px; }
 .project-link { color: var(--primary); text-decoration: none; font-weight: bold; }
 
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    padding-top: 2rem;
+}
+
+.skill-card {
+    background: rgba(30, 41, 59, 0.5); /* Glass-morphism */
+    padding: 2.5rem 1.5rem;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.skill-card:hover {
+    transform: translateY(-10px);
+    background: rgba(30, 41, 59, 0.8);
+    border-color: var(--primary);
+    box-shadow: 0 15px 30px rgba(0, 210, 255, 0.15);
+}
+
+.skill-icon {
+    font-size: 2.5rem;
+    color: var(--primary);
+    margin-bottom: 1.5rem;
+}
+
+.skill-card h4 {
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+.skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.8rem;
+}
+
+.skill-tags span {
+    background: rgba(0, 210, 255, 0.1);
+    color: var(--primary);
+    padding: 6px 12px;
+    border-radius: 50px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    border: 1px solid rgba(0, 210, 255, 0.3);
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .hero h1 { font-size: 2.5rem; }
     .nav-links { display: none; }
 }
+
